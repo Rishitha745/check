@@ -1,0 +1,18 @@
+FUNC_DECL
+  SCALAR_TYPE (VOID)
+  VAR (arg0)
+  STMT_BLOCK
+    DECL_STMT
+      SCALAR_TYPE (INT)
+      VAR (var0)
+      VAR_EXPR
+        VAR (arg0)
+    DECL_STMT
+      SCALAR_TYPE (INT)
+      VAR (var1)
+      NO_INITIALIZATION
+void bar (int arg0) {
+  int var0 = arg0;
+  int var1;
+}
+
