@@ -239,6 +239,7 @@ struct Event{
 
 };
 
+enum class BoundType { Open, Closed };
 template <typename T>
 struct Interval {
     T lower;
